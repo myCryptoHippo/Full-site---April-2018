@@ -1,8 +1,8 @@
 <?php
 /* Database connection settings */
-$host = 'rakeeb123.ipagemysql.com';
-$user = 'rakeeb123';
-$pass = '@myCryptoHippo123';
-$db = 'accounts';
+$host = 'us-cdbr-iron-east-01.cleardb.net';
+$user = 'b75566ef4603cf';
+$pass = '36a30d18';
+$db = 'heroku_748410e05067680';
 $mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
 $conn = mysqli_connect($host, $user, $pass, $db);
