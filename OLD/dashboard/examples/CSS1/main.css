@@ -1,0 +1,265 @@
+body{
+    font-family:'Open Sans';
+}
+#mainPanel{
+    position: absolute;
+    margin-top: 61px;
+    margin-left: calc(10vw + 135px);
+}
+ 
+#intro{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 20px
+}
+#pDes{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 17px;
+    padding-right: 20px;
+}
+#tradeButton{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 130px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #46b7e0;
+}
+#coinTitle{
+    margin-left: 20px;
+    font-weight: bold;
+    padding-right: 20px
+}
+#bar{
+    height: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+#richest{
+    position:absolute;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+}
+
+#hippiest{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+}
+@media screen and (min-width: 1000px) {
+    #mainPanel{
+        height: 850px;
+    }
+    #richest{
+        width: calc(47vw - 150px);
+    }
+    #hippiest{
+        margin-left: calc(47vw - 70px);
+        width: calc(47vw - 150px);
+    }
+    #he3{
+        position: absolute;
+        width: calc(47vw - 195px);
+        text-align: right;
+    } 
+    #pe3{
+        position: absolute;
+        width: calc(47vw - 205px);
+        text-align: right;
+    }
+    
+    #seeMoreButton{
+        margin-left: calc(23vw - 135px);
+    }
+    
+    #coins{
+        float: left;
+        width: calc(45vw - 135px);
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 7px;
+    }
+    
+    #w1{
+        margin-left: 20px;
+        width: calc(45vw - 135px);
+        height: 800px;  
+        float: left;
+    }
+    
+    #donutchart{
+        width: calc(45vw - 135px);
+        height: 250px;
+    }
+    #portfolio{
+        width: calc(90vw - 210px);
+        height: 290px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 40px;
+        border-radius: 7px;
+        border: 2px solid #8D369B;
+    }
+    #coinTitle{
+        font-size: calc(2vw - 1px);
+        margin-top: 30px;
+    }
+    #moreInfo{
+        position: absolute;
+        margin: 24px;
+        margin-left: 190px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width:500px) {
+    #mainPanel{
+        height: 1550px;
+    }
+    #richest{
+        width: calc(48vw - 0px);
+        margin-left: calc(21vw - 65px);
+    }
+    #hippiest{
+        width: calc(48vw - 0px);
+        margin-left: calc(21vw - 65px);
+        margin-top: calc(520px - 1vw);
+    }
+    #he3{
+        position: absolute;
+        width: calc(48vw - 40px);
+        text-align: right;
+    }
+    #pe3{
+        position: absolute;
+        width: calc(48vw - 50px);
+        text-align: right;
+    }
+    
+    #seeMoreButton{
+        margin-left: calc(25vw - 70px);
+    }
+    
+    #w1{
+        width: calc(86vw - 210px);
+        padding-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 40px;
+        padding-right: 20px;
+        border-radius: 7px;
+        border: 2px solid #8D369B;
+    }
+    #coins{
+        width: calc(48vw - 0px);
+        margin-left: calc(21vw - 65px);
+        padding-bottom: 20px;
+        margin-top: 30px;
+        border-radius: 7px;
+        border: 2px solid #8D369B;
+    }
+    #coinTitle{
+        
+        font-size: calc(20px + 0.5vw);
+        margin-top: 20px;
+    }
+    #moreInfo{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    #des1{
+        margin-top: 10px;
+    }
+}
+
+#title{
+    position: absolute;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#moreInfo{
+    font-size: 16px;
+    color: #f25896;
+}
+.des{
+    font-size: 13px;
+    margin:20px;
+    margin-left: 30px;
+    margin-top: 55px;
+}
+#link{
+    cursor: pointer;
+    color: #46b7e0;
+    text-decoration: underline;
+}
+#link:hover{
+    color: #286982;
+}
+#divLine{
+    border-bottom: 1px solid lightGray;
+    margin-top: -10px;
+}
+#header{
+    color: #707070;
+    font-size: 16px;
+    margin: 18px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+#he1{
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+#he2{
+    position: absolute;
+    margin-left: 80px;
+}
+
+#person{
+    font-size: 14px;
+    margin-left: 18px;
+    height: 10px;
+    height: 50px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+#pe1{
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+#personPic{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 7px;
+    width: 25px;
+}
+#pe2{
+    position: absolute;
+    margin-left: 95px;
+}
+
+#seeMoreButton{
+    text-align: center;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #46b7e0;
+    border: 1px solid #46b7e0;
+}

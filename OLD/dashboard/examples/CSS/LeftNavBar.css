@@ -1,0 +1,98 @@
+/*
+
+SAMPLE CODE
+
+<!--Left Navigation Pane -->
+        <div class="leftNavBar">
+            <div id="selectingBlock"></div> <!--CHANGE THE POSITION OF THIS DIV FOR EACH PAGE-->
+
+            <div id="leftNavBarspacer_Top"></div>
+            <ul id="leftNavChoices">
+                <li id="li_leftNavChoices"><a href=#>Dashboard</a></li>
+                <li id="li_leftNavChoices"><a href=#>My Portfolio</a></li>
+                <li id="li_leftNavChoices"><a href=#>Rewards</a></li>
+                <li id="li_leftNavChoices"><a href=#>Leaderboard</a></li>
+                <li id="li_leftNavChoices"><a href=#>Resources</a></li>
+                <li id="li_leftNavChoices"><a href=#>Settings</a></li>
+            </ul>
+
+
+            <div id="leftNavFooter">
+                <a href=#>About us</a>
+                <div>
+                    <a href="https://medium.com/mycryptohippo/welcome-to-behindtheproduct-571825990f29"><img id="aboutUsFooterIcons" src="Assets/medium_icon_20.png" alt="myCryptoHippo Medium Icon"></a>
+                    <a href="https://instagram.com/myCryptoHippo"><img id="aboutUsFooterIcons" src="Assets/instagram_icon_20.png" alt="myCryptoHippo Instagram Icon"></a>
+                    <a href="https://www.facebook.com/mycryptohippo/?ref=br_rs"><img id="aboutUsFooterIcons" src="Assets/facebook_icon_20.png" alt="myCryptoHippo Facebook Icon"></a>
+                    <a href="https://twitter.com/myCryptoHippo"><img id="aboutUsFooterIcons" src="Assets/Twitter_icon_20.png" alt="myCryptoHippo Twitter Icon"></a>
+                </div>
+            </div> <!--class "leftNaveFooter" end-->	
+
+
+        </div> <!--class "leftNavBar" end-->	
+
+*/
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+#leftNavBarspacer_Top {
+  height: 61px;
+}
+
+.leftNavBar {
+    height: 100vh;
+    width: calc(10vw + 140px);
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(#8D369B, #F25896); /* Standard syntax (must be last) */
+    position: fixed;
+    z-index: 3;
+}
+
+#leftNavChoices{
+    margin-top: 50px;
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  margin-bottom: 150px;
+}
+
+#li_leftNavChoices {
+  font-family:'Open Sans';
+  font-size: 1em; 
+  text-align: left;
+  margin-bottom: 35px;
+  font-weight: lighter;
+    margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+
+#leftNavFooter {
+  margin-top: 50px;
+  font-family: 'Open Sans';
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 45px;
+}
+
+#aboutUsFooterIcons {
+  display: inline-block;
+  width: calc(1vw + 25px); 
+
+}
+#selectingBlock{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width: 15px;
+    margin-top: 160px; /*CHANGE THIS PROPERTY FOR EACH PAGE*/
+}
+
+
+

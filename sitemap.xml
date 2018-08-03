@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://mycryptohippo.com/</loc>
+  <lastmod>2018-04-17T17:48:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/index.html</loc>
+  <lastmod>2018-04-17T17:48:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/about.html</loc>
+  <lastmod>2018-04-17T20:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/events.html</loc>
+  <lastmod>2018-04-14T18:15:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/login.php</loc>
+  <lastmod>2018-04-17T20:58:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/signup.php</loc>
+  <lastmod>2018-04-17T20:58:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/contact.php</loc>
+  <lastmod>2018-04-17T20:58:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mycryptohippo.com/terms.html</loc>
+  <lastmod>2018-04-09T00:02:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

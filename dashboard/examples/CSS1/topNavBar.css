@@ -1,0 +1,51 @@
+html,body,p{
+    margin:0;
+    padding:0;
+}
+.topNavBar{
+    background-color: white;
+    z-index: 5;
+    position: fixed;
+    padding-top: 100px;
+    margin-top: -100px;
+    height: 60px;
+    width: 100vw;
+    border-bottom: 1px solid #d49dce;
+}
+#logo{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 24px;
+    height: 110px;
+}
+#profile{
+    position: absolute;
+    width: 100px;
+    margin-left: calc(90vw - 150px);
+    font-size: 17px;
+    margin-top: 22px;
+    text-align: right;
+}
+#profile:hover{
+    cursor: pointer;
+}
+#profilePic{
+    position: absolute;
+    height: 35px;
+    margin-top: -7px;
+    margin-left: -135px;
+    border-radius: 50%;
+}
+#name{
+    position: absolute;
+}
+#logOutButton{
+    position: absolute;
+    margin-left: calc(95vw - 50px);
+    text-align: right;
+    font-size: 17px;
+    margin-top: 22px;
+}
+#logOutButton:hover{
+    cursor:pointer;
+}

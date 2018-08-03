@@ -1,0 +1,15 @@
+.mymodal {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+	display: table;
+	background-color: white;
+}
+
+.mymodal > .modal-content {
+	display: table-cell;
+	background-color: white;
+}

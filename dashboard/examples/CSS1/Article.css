@@ -1,0 +1,48 @@
+body{
+    font-family:'Open Sans';
+}
+
+.title{
+    color: #2f2f2f;
+    margin-left: 150px;
+    margin-top: 75px; 
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.author{
+    font-size: 18px;
+    color: #1f1f1f;
+    margin-left: 150px;
+}
+
+.date{
+    font-size: 16px;
+    color: #d8d8d8;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.content{
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    max-width: 700px;
+    line-height: 35px;
+}
+
+#image1{
+    margin-left: 150px;
+    margin-top: 20px;
+    max-height:500px;
+    max-width: 500px;
+}
+.imageSub{
+    font-size: 12px;
+    color: #2f2f2f;
+    margin-left: 150px;
+    max-width: 700px;
+    line-height: 20px;
+}
